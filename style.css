@@ -1,0 +1,67 @@
+header{
+       display: flex;
+       justify-content: space-between; 
+}
+h1{
+    font-weight: normal;
+    font-size:30px;
+    margin-left: 55px;  
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    /* margin-top: 55px;    */
+    margin-top: -10px;
+   
+}
+nav{
+    width: 60%;  /* we can also use vw for automation size */
+    margin-top: auto;
+}
+
+li{
+    font-size: large;
+    font-size: x-large;
+}
+
+.IMG{
+    width: 95vw;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container>div{
+    text-align: center;
+    margin: 2rem;
+}
+.container>div>p{
+    font-size: blarge;
+}
+.container img{
+    margin-top: 4rem;
+    margin-left: 50px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: azure;
+    font-size: x-large;
+    height: 4rem;   
+}
+
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+
+footer>p{
+    padding: 1.5rem;
+}
